@@ -11,6 +11,7 @@ namespace Git_Hub_Repository.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            string str = "rajesh";
             return Content("Hii Rajesh");
         }
     }
